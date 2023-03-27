@@ -1,7 +1,7 @@
 body {
   font-size: 12px;
   align-items: center;
-  background-image: url("./img/wmB1.jpg");
+  background-image: url("wmB1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -129,7 +129,7 @@ html {
   body {
     font-size: 12px;
     align-items: center;
-    background-image: url("./img/wmB1.3.jpg");
+    background-image: url("wmB1.3.jpg");
     background-size: auto;
   }
   #main {
@@ -188,7 +188,7 @@ html {
   body {
     font-size: 12px;
     align-items: center;
-    background-image: url("./img/wmB1.3.jpg");
+    background-image: url("wmB1.3.jpg");
     background-size: auto;
   }
   .country-img {
