@@ -1,0 +1,247 @@
+body {
+  font-size: 12px;
+  align-items: center;
+  background-image: url("img/wmB1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html {
+  font-family: fantasy;
+}
+.divi {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.errori {
+  padding: 30px;
+  background-color: rgb(248, 162, 3);
+}
+.h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 2;
+  font-family: fantasy;
+}
+
+.h1 {
+  font-size: 20px;
+  line-height: 1.5px;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+.inputi {
+  padding: 10px 70px 10px 10px;
+  border-radius: 9px;
+  margin-bottom: 5px;
+  border: none;
+}
+.inputi:focus {
+  outline: none;
+}
+
+.buttoni {
+  font-family: fantasy;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+  margin-bottom: 20px;
+  padding: 5px 30px;
+  background-color: rgb(223, 219, 6);
+  color: #000;
+  border-radius: 9px;
+
+  border: none;
+}
+
+.buttoni:hover {
+  background-color: rgba(209, 198, 42, 0.533);
+  cursor: pointer;
+}
+
+#main {
+  display: flex;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.country-img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  background-color: #eee;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid black;
+}
+
+.msquare {
+  background-color: #fff;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.square {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.country-continent,
+.country-capital,
+.country-population {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.country-name {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.f-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.crp {
+  font-size: 400;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 9px;
+}
+.ash {
+  text-decoration: underline;
+}
+.ash:hover {
+  cursor: pointer;
+  color: #a52a2a;
+}
+.asha {
+  text-decoration: none;
+  color: inherit;
+}
+@media (max-width: 1015px) {
+  body {
+    font-size: 12px;
+    align-items: center;
+    background-image: url("img/wmB1.3.jpg");
+    background-size: auto;
+  }
+  #main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .h1 {
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 700;
+    font-family: cursive;
+    text-align: center;
+  }
+  .country-img {
+    width: 200px;
+    height: 110px;
+    object-fit: cover;
+    background-color: #eee;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+  }
+
+  .msquare {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+  }
+  .square {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .country-continent,
+  .country-capital,
+  .country-population {
+    font-size: 10px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+  .country-name {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+}
+@media (max-width: 440px) {
+  body {
+    font-size: 12px;
+    align-items: center;
+    background-image: url("img/wmB1.3.jpg");
+    background-size: auto;
+  }
+  .country-img {
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+    background-color: #eee;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+  }
+
+  .msquare {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .square {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .country-continent,
+  .country-capital,
+  .country-population {
+    font-size: 10px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+  .country-name {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  .inputi {
+    padding: 7px 40px 7px 7px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+  }
+  .buttoni {
+    font-family: fantasy;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom: 20px;
+    padding: 3px 15px;
+    background-color: rgb(223, 219, 6);
+    color: #000;
+    border-radius: 9px;
+
+    border: none;
+  }
+}
