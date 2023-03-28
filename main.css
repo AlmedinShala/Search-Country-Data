@@ -6,7 +6,7 @@ body {
   background-size: cover;
 }
 html {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .divi {
   margin-top: 0;
@@ -43,7 +43,7 @@ html {
 }
 
 .buttoni {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 2;
@@ -109,7 +109,7 @@ html {
 }
 .crp {
   font-size: 400;
-  font-family: "Courier New", Courier, monospace;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 9px;
 }
 .ash {
@@ -145,7 +145,7 @@ html {
     font-size: 15px;
     line-height: 2;
     font-weight: 700;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
   }
   .country-img {
@@ -190,7 +190,7 @@ html {
   body {
     font-size: 12px;
     align-items: center;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url("img/wmB1.3.jpg");
     background-size: auto;
   }
@@ -238,7 +238,7 @@ html {
     margin-bottom: 5px;
   }
   .buttoni {
-    font-family: "Courier New", Courier, monospace;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     font-weight: 500;
     line-height: 2;
