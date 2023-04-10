@@ -7,7 +7,7 @@
 
 
 <hr>
-<img src="https://i.postimg.cc/C5vDhJVH/scd.png" />
-<img src="https://i.postimg.cc/KvR37P2w/scd1.png" />
-<img src="https://i.postimg.cc/9fVfkT6W/scd2.png" />
+<img src="https://i.postimg.cc/C5vDhJVH/scd.png" alt="website-pic-1"/>
+<img src="https://i.postimg.cc/KvR37P2w/scd1.png" alt="website-pic-2" />
+<img src="https://i.postimg.cc/9fVfkT6W/scd2.png" alt="website-pic-3" />
 </hr>
